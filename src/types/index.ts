@@ -69,3 +69,7 @@ export interface URLInputProps {
   onSubmit: (url: string) => void;
   isLoading?: boolean;
 }
+
+export interface AnalysisResultProps {
+  analysis: Analysis;
+}
