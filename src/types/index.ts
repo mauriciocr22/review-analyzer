@@ -69,3 +69,25 @@ export interface URLInputProps {
   onSubmit: (url: string) => void;
   isLoading?: boolean;
 }
+
+export interface AnalysisResultProps {
+  analysis: Analysis;
+}
+
+export interface ReviewItemProps {
+  review: Review;
+}
+
+export interface EmptyStateProps {
+  message?: string;
+  icon?: string;
+}
+
+export interface ErrorMessageProps {
+  message: string;
+  onRetry?: () => void;
+}
+
+export interface HeaderProps {
+  title: string;
+}
